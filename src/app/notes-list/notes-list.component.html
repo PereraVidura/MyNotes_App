@@ -1,0 +1,33 @@
+
+<div class="newButton">
+    <nav>
+      <button routerLink="./new">Add New Note</button>
+    </nav>
+  </div>
+  
+  
+  <table class="my-notes-table">
+    <thead>
+      <tr>
+        <th class="header"> My Notes </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="content">
+          <div class="container">
+            <ul class="notes">
+              <li *ngFor="let note of notes; let i = index" class="note-item">
+                <button [routerLink]="['/note', note.id]">
+                  <div class="note-content">
+                    <span class="note-title"> {{ note.title }} </span>
+                    <span class="note-text"> {{ note.text }} </span>
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>

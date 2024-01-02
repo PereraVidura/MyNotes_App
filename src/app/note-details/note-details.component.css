@@ -1,0 +1,79 @@
+#note-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .note-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .note-id {
+    color: #aaa;
+    margin-bottom: 15px;
+    display: block;
+  }
+  
+  .note-text {
+    font-size: 1.2em;
+    line-height: 1.4;
+    display: block
+  }
+  
+  nav {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    background-color: #1470a5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #06045f;
+  }
+  
+
+  /* Add styles for the delete button */
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.delete-button:hover {
+  background-color: #91000e;
+}
+
+.edit-button {
+  background-color: #af770e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.edit-button:hover {
+  background-color: #463a06;
+}

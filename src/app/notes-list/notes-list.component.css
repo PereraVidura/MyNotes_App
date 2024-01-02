@@ -1,0 +1,113 @@
+ 
+.newButton {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .newButton button {
+    background-color: #06045f;
+    border: none;
+    color: white;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .newButton button:hover {
+    background-color: #1470a5;
+  }
+  
+  
+  /* Table Styles */
+  .my-notes-table {
+      width: 50%;
+      border-collapse: collapse;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #e4e718;
+      border-radius: 20px;
+      border: none;
+    }
+  
+    .header {
+      border: none;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    
+    .my-notes-table th {
+      background-color: #e76f0c;
+      color: #000000;
+      text-align: center;
+      padding: 20px;
+      font-size: 30px;
+      border: none;
+    }
+    
+    .my-notes-table td {
+      width: 50%;
+      vertical-align: top;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border: none;
+    }
+    
+    /* Container Styles */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      border: none;
+    }
+    
+    /* Notes Styles */
+    .notes {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .note-item {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+    
+    button {
+      background-color: #e9eb83;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 15px;
+      transition: background-color 0.3s;
+      width: 100%;
+      text-align: left;
+    }
+    
+    button:hover {
+      background-color: #359fe6;
+    }
+    
+    .note-content {
+      display: block;
+    }
+    
+    .note-title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #333;
+      display: block; /* Make it a block element to appear on a new line */
+    }
+    
+    .note-text {
+      font-size: 18px;
+      color: #555;
+      display: block; /* Make it a block element to appear on a new line */
+    }
+    
+    

@@ -1,0 +1,21 @@
+<div class="container">
+    <h2>Edit Note</h2>
+    <form [formGroup]="editNoteForm" (ngSubmit)="updateNote()">
+      <div>
+        <label for="edit-note-title">
+          Title:
+          <input id="edit-note-title" formControlName="title" />
+        </label>
+      </div>
+      <div>
+        <label for="edit-note-text">
+          Text:
+          <input id="edit-note-text" formControlName="text" />
+        </label>
+      </div>
+      <button class="button" type="submit" [disabled]="!editNoteForm.valid">
+        Update Note
+      </button>
+    </form>
+  </div>
+  

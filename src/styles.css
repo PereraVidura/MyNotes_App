@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    box-sizing: content-box;
+    padding-bottom: 100px;
+    margin: 0;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*background-image: url('assets/Images/BG.jpg');*/
+    background: radial-gradient(circle, #ff66cc, #ff3399, #ff0066, #cc0052, #990033, #4e011b, #27010d);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*opacity: 0.9;*/
+    z-index: -1;
+}
